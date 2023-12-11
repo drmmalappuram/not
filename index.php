@@ -1,9 +1,4 @@
-<!Doctype Html>  
-<html> <title>   
-Use a Php in Html  
-</title>  
-</head>  
-<body>  
+
 <?php
 $url = 'https://fcm.googleapis.com/fcm/send';
 $serverkey = 'AAAAb0o5kVo:APA91bE1L7ZGj8K-pSm2MgUY4EB30mhZIKgGrmY9UacJS4vtDsLfUVHfsewdwGL7G0CSC6tNauOn3hFVXVfT9LjB1odng9d-1wA5Ig7oUB-W217hmNdB0SHewV_5kUI9t1hKlLa4Illz';
@@ -35,5 +30,3 @@ if ($result) {
 curl_close($ch);
 
 ?>
-</body>
-</html>   
